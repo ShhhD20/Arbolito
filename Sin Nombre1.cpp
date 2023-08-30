@@ -4,18 +4,18 @@
 
 int main (){
 	int a;
-	
 	setlocale(LC_ALL, "");
 	
-	printf("¿De que tamaño quieres el arbol?: ");
+	printf("Â¿De que tamaÃ±o quieres el arbol?: ");
 	scanf("%d", &a);
 	
 	if (a == 3){
-		printf("	*\n");
-		printf(" /|\ ");
-		printf("\n");
-		printf(" //|\\ \n");
-		printf("*");
+		printf("    * \n");
+		printf("   /\\ \n");
+		printf("  //\\\\ \n");
+		printf(" ///\\\\\\ \n");
+		printf("   || \n");
+		printf("  ====");
 	}
 	else if (a == 5){
 	}
@@ -24,3 +24,12 @@ int main (){
 	
 	return 0;
 }
+
+/*	     /\
+	    //\\
+	   ///\\\
+	  ////\\\\
+	 /////\\\\\
+	///////\\\\\\
+ 	    ||||
+//*/
